@@ -22,7 +22,7 @@ import { buildBarSeries, getPlatformChartData, getGenderChartData } from './help
      series: []
  }
 
- const BASE_URL = 'http://localhost:8080'
+ const BASE_URL = 'https://sds1-maycol.herokuapp.com';
 
 const Charts = () => {
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
